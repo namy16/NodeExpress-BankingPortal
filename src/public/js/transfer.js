@@ -14,4 +14,4 @@ function validate(evt){
 
 to.addEventListener("change", validate);
 from.addEventListener("change", validate);
-transferForm.addEventListener('submit', validate)
+transferForm.addEventListener('submit', validate);
