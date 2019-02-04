@@ -55,6 +55,6 @@ app.post('/payment',  (req,res) => {
     res.render('payment', { message: "Payment Successful", account: accounts.credit })
 });
 
-app.listen(3000,function () {
+app.listen(3000, function () {
     console.log('PS Project Running on port 3000!');
 });
